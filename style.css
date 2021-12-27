@@ -1,0 +1,277 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+nav {
+  position: fixed;
+  background: #0b0b0b;
+  height: 55px;
+  width: 100%;
+}
+
+label.logo {
+  color: #fff;
+  font-size: 20px;
+  line-height: 55px;
+  padding: 0px 10px;
+  margin-left: 90px;
+  font-family: helvetica;
+  cursor: pointer;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 55px;
+  font-size: 5px;
+  margin: 0px 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+/* home */
+main {
+  padding: 105px 80px;
+  background-color: #111111;
+}
+
+.main-home h1 {
+  text-align: center;
+  font-family: helvetica;
+  color: #fff;
+}
+
+.main-home p {
+  font-style: italic;
+  text-align: center;
+  padding: 20 145px;
+  color: #e8e8e8;
+}
+
+.photo {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+}
+
+.main-profil img {
+  margin-top: 25px;
+  width: 18%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nama {
+  padding-top: 5px;
+  text-align: center;
+  font-family: helvetica;
+  color: #fff;
+  font-size: 40;
+}
+
+.profesi {
+  margin-top: -15px;
+  text-align: center;
+  font-family: helvetica;
+  font-style: italic;
+  color: #e8e8e8;
+  font-size: 20;
+}
+
+/* about */
+.main-about {
+  margin-top: 100px;
+}
+
+.main-about h1 {
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 25px;
+  color: #fff;
+}
+
+.main-about p {
+  font-style: italic;
+  padding: 15px 145px;
+  text-align: center;
+  font-family: helvetica;
+  color: #e8e8e8;
+}
+
+.main-about p a {
+  text-decoration: none;
+  color: rgb(43, 186, 230);
+}
+
+/* hobby */
+.contents-hobby {
+  margin-top: -45px;
+}
+
+.contents-hobby h1 {
+  text-align: center;
+  font-family: helvetica;
+  color: #fff;
+  font-size: 30px;
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.item-hobby {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.contens-img {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+}
+
+.contens-img img {
+  width: 250px;
+}
+
+.item-hobby p {
+  text-align: center;
+  font-family: helvetica;
+  color: #e8e8e8;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.contents-p {
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  font-family: helvetica;
+  color: rgb(200, 203, 206);
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+/* playlist */
+section {
+  background-color: #111111;
+}
+
+.contents-playlist {
+  margin-top: -45px;
+}
+
+.contents-playlist h1 {
+  text-align: center;
+  font-family: helvetica;
+  color: #fff;
+  font-size: 30px;
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.item-playlist {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+.contens-play {
+}
+
+.contens-play img {
+  width: 250px;
+}
+
+.item-playlist p {
+  text-align: center;
+  font-family: helvetica;
+  font-style: italic;
+  color: #e8e8e8;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.item-playlist p a {
+  text-decoration: none;
+  color: #e8e8e8;
+}
+
+.contents-p {
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  font-family: helvetica;
+  color: rgb(200, 203, 206);
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+/* contact form */
+.contact {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.contact h1 {
+  text-align: center;
+  color: #fff;
+  border-bottom: 2px solid #e8e8e8;
+  font-size: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+}
+
+input,
+textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #e8e8e8;
+}
+
+.contact-submit {
+  background-color: #feaf17;
+  color: #0b0b0b;
+  cursor: grab;
+}
+
+.txt-white {
+  font-style: italic;
+  color: #e8e8e8;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: #0b0b0b;
+  color: #e8e8e8;
+  padding: 10px 40px;
+  height: 20px;
+}
